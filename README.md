@@ -16,6 +16,13 @@ A clean, interactive example of **Item-based Collaborative Filtering** using Pyt
 
 ## Run Locally
 1. Clone the repo:
-```bash
-git clone git@github.com:tdford4/demo_recommendations.git
-cd demo_recommendations
+```git clone git@github.com:tdford4/demo_recommendations.git```
+```cd demo_recommendations```
+
+2. Create data
+```python data/generate_data.py```
+
+3. Run app
+```streamlit run app.py```
+
+
